@@ -1,0 +1,30 @@
+<div class="row" ng-repeat="track in albums | filter:search">   
+    <div class="col-md-10 col-md-offset-1 inner-tracks">
+    	<table class="table">
+            <thead>
+                <tr>
+                    <img ng-src="{{track.album_image}}" class="pull-left" />
+                    <h3>{{track.title}}</h3>
+                    <h5>{{track.artist}}</h5>
+                    <button ng-click="player.playAlbum(albums[$index].title, albums[$index].tracks)" type="button" class="btn btn-success" ng-class="{'btn btn-warning': player.player.playing == true && currentAlbum == albums[$index].title}"><span ng-hide="player.player.playing == true && currentAlbum == albums[$index].title">Play album</span><span ng-show="player.player.playing == true && currentAlbum == albums[$index].title">Currently playing</span></button>
+                    <th>
+                        Artist
+                    </th>
+                    <th>
+                        Track
+                    </th>
+                    <th>
+                        Album
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="song in track.tracks"> 
+                  <td>{{track.artist}}</a></td>
+                  <td>{{song.title}}</td>
+                  <td>{{track.title}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

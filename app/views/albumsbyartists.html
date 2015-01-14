@@ -1,0 +1,9 @@
+<a href="#/artists">Back to overview</a><br />
+<div class="col-md-3" ng-repeat="album in albums | filterBy: ['artist']: artistId | filter:search"> 
+	<div class="inner">
+		<a href="#/album/{{albums.indexOf(album)}}">
+		<img class="img-responsive" ng-src="{{album.album_image}}" />
+		<h4>{{album.title}}</h4>
+		<h6>{{album.artist}}</h6></a>
+	</div>
+</div>

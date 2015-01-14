@@ -1,0 +1,139 @@
+[{
+    "title": "21",
+    "artist": "Adele",
+    "album_image": "images/example-album-1.jpg",
+    "artist_image": "images/example-artist.jpg",
+    "tracks": [{
+        "title": "Title1",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title2",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title3",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title4",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title5",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title6",
+        "url": "music/example.mp3"
+    }]
+},
+{
+    "title": "X",
+    "artist": "Ed Sheeran",
+    "album_image": "images/example-album-2.jpg",
+    "artist_image": "images/example-artist-1.jpg",
+    "tracks": [{
+        "title": "Title1",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title2",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title3",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title4",
+        "url": "music/example.mp3"
+    }]
+},{
+    "title": "The 59 Sound",
+    "artist": "The Gastlight Anthem",
+    "album_image": "images/example-album-3.jpg",
+    "artist_image": "images/example-artist-2.jpg",
+    "tracks": [{
+        "title": "Title1",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title2",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title3",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title4",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title5",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title6",
+        "url": "music/example.mp3"
+    }]
+},{
+    "title": "Get hurt",
+    "artist": "The Gastlight Anthem",
+    "album_image": "images/example-album-4.jpg",
+    "artist_image": "images/example-artist-2.jpg",
+    "tracks": [{
+        "title": "Title1",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title2",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title3",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title4",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title5",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title6",
+        "url": "music/example.mp3"
+    }]
+},{
+    "title": "Slipknot",
+    "artist": "Slipknot",
+    "album_image": "images/example-album-5.jpg",
+    "artist_image": "images/example-artist-3.jpg",
+    "tracks": [{
+        "title": "Title1",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title2",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title3",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title4",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title5",
+        "url": "music/example.mp3"
+    },
+    {
+        "title": "Title6",
+        "url": "music/example.mp3"
+    }]
+}]

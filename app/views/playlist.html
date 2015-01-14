@@ -1,0 +1,38 @@
+
+<div class="row">
+        <div class="col-md-offset-1 col-md-3 inner-album">
+            <a href="#/playlists">Back to Playlists</a>
+    		<img class="album-image" ng-src="http://www.geordymolenaar.nl/musicplayer/images/example-album-2.jpg" />
+    	</div>
+	    <div class="col-md-7 inner-album">
+		    <h3>Playlist: {{playlists[playlistId].title}}</h3>
+            <button ng-click="player.playAlbum(playlists[playlistId].title, playlists[playlistId].tracks)" type="button" class="btn btn-success">Play playlist</button>
+            <button ng-click="player.playAlbumShuffle(playlists[playlistId].title, playlists[playlistId].tracks)" type="button" class="btn btn-primary">Shuffle</button><br /><br />
+            <div player></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Artist
+                        </th>
+                        <th>
+                            Track
+                        </th>
+                        <th>
+                            Album
+                        </th>
+                    </tr>
+                </thead>
+            <tbody>
+
+                <tr ng-repeat="song in playlists[playlistId].tracks"> 
+                    
+                  <td><a ng-click="player.player.play($index, song.artist, playlists[playlistId].tracks, song.album)">{{song.artist}}</a></td>
+                  <td><a ng-click="player.player.play($index, song.artist, playlists[playlistId].tracks, song.album)">{{song.title}}</a></td>
+                  <td><a ng-click="player.player.play($index, song.artist, playlists[playlistId].tracks, song.album)">{{song.album}}</a></td></a>
+                </tr>
+
+            </tbody>
+        </table>
+	</div> 
+</div>

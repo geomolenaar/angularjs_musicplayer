@@ -1,0 +1,16 @@
+
+<input ng-model="title" placeholder="Name of playlist"></input>
+<button ng-click="player.addPlaylist(title)">Add new playlist</button>
+
+<button ng-click="player.clearLocalStorage()">Remove all playlists</button>
+<br /><br />
+
+	<div class="col-md-3" ng-repeat="playlist in playlists | filter:search"> 
+		<div class="inner">
+			<a href="#/playlists/{{playlists.indexOf(playlist)}}">
+			<img class="img-responsive" ng-src="http://www.geordymolenaar.nl/musicplayer/images/example-album-2.jpg" />
+			<h4>{{playlist.title}}</h4>
+			<h6>Songs: {{playlist.tracks.length}}</h6></a>
+		</div>
+	</div>
+

@@ -1,0 +1,6 @@
+<div class="col-md-3 text-center" ng-repeat="artist in albums | unique: 'artist' | filter:search">
+	<a href="#/artists/{{artist.artist}}">
+		<img ng-src="{{artist.artist_image}}"  style="height: 150px; width: 150px;" class="img-circle" />
+		<h4>{{artist.artist}}</h4>
+	</a>
+</div>

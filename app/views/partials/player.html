@@ -1,0 +1,14 @@
+<button ng-click="player.prevSong()" type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span>
+</button>
+<button ng-hide="player.player.playing" ng-click="player.player.resume()" type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+</button>
+<button ng-click="player.player.pause()" ng-show="player.player.playing" type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+</button>
+<button ng-click="player.nextSong()" type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon glyphicon-step-forward" aria-hidden="true"></span>
+</button>
+<h5 ng-show="player.player.playing">Currently playing: {{currentAlbum}} - {{currentSong}}</h5>
+<h6 class="no-padding" ng-show="player.player.playing">Time: {{currentMinutes}}:{{currentSeconds}} - {{durationMinutes}}:{{durationSeconds}}</h6>
