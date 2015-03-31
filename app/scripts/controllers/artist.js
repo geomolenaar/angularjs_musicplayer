@@ -20,7 +20,7 @@ angular.module('angularjsMusicplayerApp')
          * Retrieves all albums from the musiclibrary service
          * @return {array}
          */
-   		$scope.$watchCollection(musiclibrary.returnAllAlbums, function() {
-    		$scope.albums = musiclibrary.returnAllAlbums();
+   		$scope.$watchCollection(musiclibrary.returnAllAlbums, function(newVal) {
+    		$scope.albums = newVal;
     	});	
   	});
