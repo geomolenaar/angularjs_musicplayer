@@ -1,0 +1,64 @@
+.form-control {
+  	padding-top:5px;
+}
+
+.title {
+  	font-size: 24px;
+}
+
+.inner {
+  	background: #fff;
+  	width: 275px;
+  	margin-bottom: 25px;
+  	border-bottom: 2px solid #D7DADF;
+
+  	a:hover {
+	  	text-decoration: none;
+	}
+
+	h4,h6 {
+	  	padding-left: 10px;
+	}
+} 
+
+.no-padding {
+  	padding: 0;
+}
+
+.main {
+  	padding-top: 25px;
+}
+
+.album-image {
+  	width: 300px;
+}
+
+.inner-album {
+  	padding-top: 10px;
+  	background: #fff;
+  	border-bottom: 2px solid #D7DADF;
+}
+
+.inner-tracks {
+  	margin-top: 25px;
+  	background: #fff;
+  	border-bottom: 2px solid #D7DADF;
+
+  	img {
+	    padding-top: 20px;
+	    height: 150px;
+	    padding-right: 20px;
+	}
+
+	h3,h5 {
+		float: none;
+	}
+}
+
+.back {
+  padding-bottom: 10px;
+}
+
+.table th {
+  width: 300px;
+}
